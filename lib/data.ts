@@ -6,6 +6,7 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import pagerdutyImg from "@/public/pagerduty.png";
 import facebookImg from "@/public/facebook.png"
 import planeImg from "@/public/plane.jpeg"
+import websiteImg from "@/public/clientsite.png"
 
 export const links = [
   {
@@ -45,7 +46,7 @@ export const experiencesData = [
   },
   {
     title: "Odin Project",
-    location: "2021-2022",
+    location: "TheOdinProject.com",
     description:
       "Completed a comprehensive online fullstack web development program called The Odin Project",
     icon: React.createElement(LuGraduationCap),
@@ -57,7 +58,7 @@ export const experiencesData = [
     description:
       "Graduated with Honors Bachelor of Science Degree",
     icon: React.createElement(LuGraduationCap),
-    date: "2018",
+    date: " 2018",
   },
 
 ] as const;
@@ -82,7 +83,7 @@ export const projectsData = [
     description:
       "Full-stack landing page with gallery and contact page for client.",
     tags: ["Ruby", "Rails", "Tailwind CSS", "Hotwire-Turbo"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: websiteImg,
   },
   {
     title: "Flight-Booker",
