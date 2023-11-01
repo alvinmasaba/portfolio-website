@@ -110,7 +110,7 @@ export default function Intro() {
         hover:scale-110 active:scale-105 
         transiition cursor-pointer borderBlack
         dark:bg-white/10' 
-        href='/CV.pdf' download>
+        href='../public/cv.pdf' download>
           Download CV <HiDownload 
           className='opacity-60 
           group-hover:translate-y-1 transition'/>
