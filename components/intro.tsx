@@ -111,8 +111,8 @@ export default function Intro() {
           hover:scale-110 active:scale-105 
           transiition cursor-pointer borderBlack
           dark:bg-white/10' 
-          href='/CV.pdf' 
-          download
+          href='/actions/getPdf'
+          download='CV.pdf'
         >
           Download CV 
           <HiDownload 
